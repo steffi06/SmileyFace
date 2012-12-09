@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A207C42415E4071800810C69 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A207C42315E4071800810C69 /* UIKit.framework */; };
+		A207C42615E4071800810C69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A207C42515E4071800810C69 /* Foundation.framework */; };
+		A207C42815E4071800810C69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A207C42715E4071800810C69 /* CoreGraphics.framework */; };
+		A207C42E15E4071800810C69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A207C42C15E4071800810C69 /* InfoPlist.strings */; };
+		A207C43015E4071800810C69 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A207C42F15E4071800810C69 /* main.m */; };
+		A207C43415E4071800810C69 /* SmileyFaceAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A207C43315E4071800810C69 /* SmileyFaceAppDelegate.m */; };
+		A207C43D15E4073100810C69 /* SmileyFaceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A207C43B15E4073100810C69 /* SmileyFaceViewController.m */; };
+		A207C43E15E4073100810C69 /* SmileyFaceViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A207C43C15E4073100810C69 /* SmileyFaceViewController.xib */; };
+		A207C44115E418DC00810C69 /* SmileyFace.m in Sources */ = {isa = PBXBuildFile; fileRef = A207C44015E418DC00810C69 /* SmileyFace.m */; };
+		A207C44A15E44FEE00810C69 /* FacialHair.m in Sources */ = {isa = PBXBuildFile; fileRef = A207C44915E44FEE00810C69 /* FacialHair.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A207C41F15E4071800810C69 /* SmileyFace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmileyFace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A207C42315E4071800810C69 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A207C42515E4071800810C69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A207C42715E4071800810C69 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A207C42B15E4071800810C69 /* SmileyFace-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmileyFace-Info.plist"; sourceTree = "<group>"; };
+		A207C42D15E4071800810C69 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A207C42F15E4071800810C69 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A207C43115E4071800810C69 /* SmileyFace-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmileyFace-Prefix.pch"; sourceTree = "<group>"; };
+		A207C43215E4071800810C69 /* SmileyFaceAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SmileyFaceAppDelegate.h; sourceTree = "<group>"; };
+		A207C43315E4071800810C69 /* SmileyFaceAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmileyFaceAppDelegate.m; sourceTree = "<group>"; };
+		A207C43A15E4073100810C69 /* SmileyFaceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileyFaceViewController.h; sourceTree = "<group>"; };
+		A207C43B15E4073100810C69 /* SmileyFaceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileyFaceViewController.m; sourceTree = "<group>"; };
+		A207C43C15E4073100810C69 /* SmileyFaceViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SmileyFaceViewController.xib; sourceTree = "<group>"; };
+		A207C43F15E418DC00810C69 /* SmileyFace.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmileyFace.h; sourceTree = "<group>"; };
+		A207C44015E418DC00810C69 /* SmileyFace.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmileyFace.m; sourceTree = "<group>"; };
+		A207C44815E44FEE00810C69 /* FacialHair.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacialHair.h; sourceTree = "<group>"; };
+		A207C44915E44FEE00810C69 /* FacialHair.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacialHair.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A207C41C15E4071800810C69 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A207C42415E4071800810C69 /* UIKit.framework in Frameworks */,
+				A207C42615E4071800810C69 /* Foundation.framework in Frameworks */,
+				A207C42815E4071800810C69 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A207C41415E4071800810C69 = {
+			isa = PBXGroup;
+			children = (
+				A207C42915E4071800810C69 /* SmileyFace */,
+				A207C42215E4071800810C69 /* Frameworks */,
+				A207C42015E4071800810C69 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A207C42015E4071800810C69 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A207C41F15E4071800810C69 /* SmileyFace.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A207C42215E4071800810C69 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A207C42315E4071800810C69 /* UIKit.framework */,
+				A207C42515E4071800810C69 /* Foundation.framework */,
+				A207C42715E4071800810C69 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A207C42915E4071800810C69 /* SmileyFace */ = {
+			isa = PBXGroup;
+			children = (
+				A207C43215E4071800810C69 /* SmileyFaceAppDelegate.h */,
+				A207C43315E4071800810C69 /* SmileyFaceAppDelegate.m */,
+				A207C43A15E4073100810C69 /* SmileyFaceViewController.h */,
+				A207C43B15E4073100810C69 /* SmileyFaceViewController.m */,
+				A207C43C15E4073100810C69 /* SmileyFaceViewController.xib */,
+				A207C43F15E418DC00810C69 /* SmileyFace.h */,
+				A207C44015E418DC00810C69 /* SmileyFace.m */,
+				A207C44815E44FEE00810C69 /* FacialHair.h */,
+				A207C44915E44FEE00810C69 /* FacialHair.m */,
+				A207C42A15E4071800810C69 /* Supporting Files */,
+			);
+			path = SmileyFace;
+			sourceTree = "<group>";
+		};
+		A207C42A15E4071800810C69 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A207C42B15E4071800810C69 /* SmileyFace-Info.plist */,
+				A207C42C15E4071800810C69 /* InfoPlist.strings */,
+				A207C42F15E4071800810C69 /* main.m */,
+				A207C43115E4071800810C69 /* SmileyFace-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A207C41E15E4071800810C69 /* SmileyFace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A207C43715E4071800810C69 /* Build configuration list for PBXNativeTarget "SmileyFace" */;
+			buildPhases = (
+				A207C41B15E4071800810C69 /* Sources */,
+				A207C41C15E4071800810C69 /* Frameworks */,
+				A207C41D15E4071800810C69 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmileyFace;
+			productName = SmileyFace;
+			productReference = A207C41F15E4071800810C69 /* SmileyFace.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A207C41615E4071800810C69 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SmileyFace;
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = BurnOffBabes;
+			};
+			buildConfigurationList = A207C41915E4071800810C69 /* Build configuration list for PBXProject "SmileyFace" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A207C41415E4071800810C69;
+			productRefGroup = A207C42015E4071800810C69 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A207C41E15E4071800810C69 /* SmileyFace */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A207C41D15E4071800810C69 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A207C42E15E4071800810C69 /* InfoPlist.strings in Resources */,
+				A207C43E15E4073100810C69 /* SmileyFaceViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A207C41B15E4071800810C69 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A207C43015E4071800810C69 /* main.m in Sources */,
+				A207C43415E4071800810C69 /* SmileyFaceAppDelegate.m in Sources */,
+				A207C43D15E4073100810C69 /* SmileyFaceViewController.m in Sources */,
+				A207C44115E418DC00810C69 /* SmileyFace.m in Sources */,
+				A207C44A15E44FEE00810C69 /* FacialHair.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A207C42C15E4071800810C69 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A207C42D15E4071800810C69 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A207C43515E4071800810C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A207C43615E4071800810C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A207C43815E4071800810C69 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmileyFace/SmileyFace-Prefix.pch";
+				INFOPLIST_FILE = "SmileyFace/SmileyFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A207C43915E4071800810C69 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmileyFace/SmileyFace-Prefix.pch";
+				INFOPLIST_FILE = "SmileyFace/SmileyFace-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A207C41915E4071800810C69 /* Build configuration list for PBXProject "SmileyFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A207C43515E4071800810C69 /* Debug */,
+				A207C43615E4071800810C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A207C43715E4071800810C69 /* Build configuration list for PBXNativeTarget "SmileyFace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A207C43815E4071800810C69 /* Debug */,
+				A207C43915E4071800810C69 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A207C41615E4071800810C69 /* Project object */;
+}
